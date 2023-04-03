@@ -1,0 +1,46 @@
+body{
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+}
+li:hover {
+    background: red;
+}
+
+section{
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    background: rgb(240, 166, 214);
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+}
+
+footer {
+    background: black;
+}
+
+header .logo a{
+    background: red;
+    display: inline-block;
+}
